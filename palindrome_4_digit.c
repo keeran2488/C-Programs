@@ -4,7 +4,7 @@ void main(){
     int num, digit_1, digit_2, digit_3, digit_4, rev, copy;
     printf("\nEnter 4 digited number: ");
     scanf("%d", &num);
-    copy = num;             // making copy of original digit
+    copy = num;             // making copy of original number
     digit_1 = num % 10;
     num = num / 10;
     digit_2 = num % 10;
